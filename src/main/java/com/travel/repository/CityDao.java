@@ -1,5 +1,9 @@
 package com.travel.repository;
 
-public class CityDao {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.travel.model.Cities;
+
+public interface CityDao extends JpaRepository<Cities, Integer>{
 
 }
